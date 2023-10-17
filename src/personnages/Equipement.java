@@ -3,13 +3,13 @@ package personnages;
 public enum Equipement {
 	CASQUE("Casque"),
     BOUCLIER("Bouclier");
-    private  static String nom;
+    private  String nom;
 
-	Equipement(String nom) {
+	private Equipement(String nom) {
 		this.nom = nom;
 	}
 
-	public static String getNom() {
+	public  String getNom() {
 		return nom;
 	}
 	public String toString() {
